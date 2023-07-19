@@ -1,0 +1,22 @@
+Bug Fix:
+- Migliorate performance durante il cambio di visualizzazine Giornaliera/Dettaglio
+- Risolto bug relativo alla mancata modifica del DB_DEFAULT
+- Risolto bug che, a seguito di una modifica commessa, aggiornava anche una riga del DB consuntivazione in modo temporaneo
+- Aggiunta la lblImpostazioni alle scritte colorate
+- Modificato calcolo della tabella no doppi in modo da funzionare anche con le commesse
+- Ottimizzata e semplificata la funzione di divisione per cliente (grazie alla chat di bing)
+- Risolto problema di estrazione in fase di modifica nota impostando la Dim giorno as Date (invece che string)
+- Aggiunto controllo di sicurezza in fase di modifica nota con Altro
+- Risolto problema che ti impediva di impostare una commessa uguale a quella attuale
+- Risolti problemi vari sulla divisione per cliente aggiungendo una funzione che riordina i ticket di ogni giorno mettendo al fondo le commesse
+- Risolvere la modifica del tempo di risoluzione
+- Verificato il calcolo della tabellaNoDoppi in caso di ticket con una nota senza commessa nota con commessa
+- Durante l’inserimento/modifica del cliente, impostare il testo in “Cliente”
+- Rimosso Timer di consuntivazione e sostituito con un Await Task.Delay(1500) (questo per evitare che il programma prosegua le operazioni in quei 1.5 sec)
+
+Release:
+- Aggiunta visualizzazione dei ticket fatti del giorno da ToolTip
+- Modificato metodo di inserimento nota tramite cmb
+- Durante la divisione per cliente, aggiungere un ticket uguale alla nota (se diversa da vuoto) dove viene mostrato /
+- Modificato il link per aprire il ticket
+- Consentire il caricamento dei ticket con le lettere (lettera "C")
