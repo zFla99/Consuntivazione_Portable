@@ -2,6 +2,6 @@
 <item>
     <version>2.0.0.0</version>
     <url>https://example.com/myapp.zip</url>
-    <changelog>https://raw.githubusercontent.com/zFla99/Consuntivazione_Portable/main/ChangeLogs/changeLog.md</changelog>
+    <changelog>https://raw.githubusercontent.com/zFla99/Consuntivazione_Portable/main/ChangeLogs/changeLog.txt</changelog>
     <mandatory>false</mandatory>
 </item>
