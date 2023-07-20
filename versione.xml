@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
     <version>2.0.0.0</version>
-    <url>https://example.com/myapp.zip</url>
+    <urlExe>https://github.com/zFla99/Consuntivazione_Portable/raw/main/Consuntivazione.exe</urlExe>
     <changelog>https://raw.githubusercontent.com/zFla99/Consuntivazione_Portable/main/ChangeLogs/changeLog.txt</changelog>
     <mandatory>false</mandatory>
 </item>
