@@ -3,5 +3,5 @@
     <version>2.0.0.0</version>
     <urlExe>https://github.com/zFla99/Consuntivazione_Portable/raw/main/Consuntivazione.exe</urlExe>
     <changelog>https://raw.githubusercontent.com/zFla99/Consuntivazione_Portable/main/ChangeLogs/changeLog.txt</changelog>
-    <mandatory>true</mandatory>
+    <mandatory>false</mandatory>
 </item>
