@@ -20,3 +20,14 @@ Release:
 - Durante la divisione per cliente, aggiungere un ticket uguale alla nota (se diversa da vuoto) dove viene mostrato /
 - Modificato il link per aprire il ticket
 - Consentire il caricamento dei ticket con le lettere (lettera "C")
+- Inserita gestione dei log di:
+	- ApplicationLoad.log
+	- InsTicket.log
+	- ConsuntivaTutto.log
+	- ModifTicket.log
+	- Config.log
+	- CommesseClienti.log
+	- InsMassivComm.log
+	- InsMassivTicket.log
+- Aggiunto Updater
+- Se il cliente ha come codice commessa lo “/” consuntiva con la commessa del cliente precedente (perché viene spostato in fondo)
